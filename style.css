@@ -6,6 +6,11 @@ font-family: 'Poppins',sans-serif;
 background: #0a2a43;
 min-height: 1508px;
 }
+.moon{
+    margin-right: 2rem;
+    min-width: 2rem;
+    position: relative;
+}
 
 section::before{
     content: '';
@@ -50,10 +55,10 @@ pointer-events: none;
 
 
 #text{
-    margin-left: 100px;
+    
     position: relative;
     color: #fff;
-    font-size: 10em;
+    font-size: 4rem;
     z-index: 1;
 }
 #road{
